@@ -84,29 +84,30 @@ margin-top: 40px;
   overflow: scroll;
 }
 
-.message{
- margin: 10px 0 0 0;
+.message {
+  margin: 10px 0 0 0;
 }
 
-.user-message{
+.upper-message{
   display: flex;
 }
-.user2-message {
+
+.message-user {
+  color: #434a54;
   font-size: 16px;
-  color: #434A54;
 }
 
-.day-message {
- font-size: 12px;
- color: #999;
- padding-left: 10px;
+.message-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
-.text-message{
- padding-top: 10px;
+.lower-message {
+  margin-top: 10px;
 }
 
-.text2-message{
+.message-content {
   color: #434a54;
   font-size: 14px;
   margin-bottom: 40px;
